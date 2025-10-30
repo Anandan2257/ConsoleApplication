@@ -17,7 +17,12 @@ public class Main {
             System.out.print("Enter a Choice: ");
             int choice = sc.nextInt();
             switch(choice){
-                case 1->OopsConcept.ClassAndObjects.Main.main();
+                case 1-> OopsConcept.ClassAndObjects.Main.main();
+                case 2-> OopsConcept.Inheritance.Main.main();
+                case 3-> OopsConcept.Encapsulation.Main.main();
+                case 4-> OopsConcept.Interface.Main.main();
+                case 5-> OopsConcept.AbstractAndInterface.Main.main();
+                case 6-> OopsConcept.Polymorphism.Main.main();
                 case 7->System.exit(0);
                 default -> System.out.println("Enter correct choice");
             }
