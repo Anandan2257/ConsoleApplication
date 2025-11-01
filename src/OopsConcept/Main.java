@@ -22,7 +22,7 @@ public class Main {
                 case 3-> OopsConcept.Encapsulation.Main.main();
                 case 4-> OopsConcept.Interface.Main.main();
                 case 5-> OopsConcept.AbstractAndInterface.Main.main();
-                case 6-> OopsConcept.Polymorphism.Main.main();
+                case 6-> OopsConcept.Polymorphism.Main.main(new String[]{"1","2"});
                 case 7->System.exit(0);
                 default -> System.out.println("Enter correct choice");
             }
