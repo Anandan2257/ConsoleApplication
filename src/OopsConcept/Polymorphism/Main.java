@@ -1,7 +1,7 @@
 package OopsConcept.Polymorphism;
 
 public class Main {
-    public static void main(String ...args){
+    public static void main(String []args){
         Overloading overloading = new Overloading();
 
         System.out.println("Overloading Example: ");
